@@ -1,0 +1,21 @@
+.pagination_container{
+    justify-content: center;
+}
+
+.pagination_container button{
+    margin: 0 .5rem;
+    outline: none;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    cursor: pointer;
+    color: #909090;
+    transition: .3s;
+}
+
+.pagination_container button:hover{
+    transform: scale(1.1);
+    background-color: #f8f9fc;
+    color: #000;
+    box-shadow: 3px 3px 6px #ccc, -3px -3px 6px white;
+}
